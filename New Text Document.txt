@@ -1,0 +1,51 @@
+pwd
+ls
+Rscript filename
+touch สร้างไฟล์ใหม่
+cat filename โชว์ข้อมูล
+echo hi > test.txt
+echo hi2 >>test.txt
+
+mkdir my_code
+rmdir my_code
+mv sample.text file2.R test.txt my_code
+cd my_code
+rm * .txt
+mv test3.txt test4.txt เปลี่ยนชื่อไฟล์
+cp test4.txt test5.txt ก็อปไฟล์
+
+
+1git init
+2git config user.name "zunkiflee"
+3git config user.email "Zunkiflee_Waesani@outlook.co.th"
+4git status
+5touch .gitignore
+6 เปิด .gitignore 
+ เพิ่ม .Rhistory
+   .Rproj.user/
+7.git add test.R
+8.git status
+9.git commit -m "create hi file"
+10.git status
+11.git log
+ลองเพิ่ม
+git add hello.R ไฟล์ใหม่
+git commit -m "add second line"
+git log
+git status
+git add test.R
+git commit -m "edit the last line"
+git log --oneline
+
+
+สร้าง branch
+git branch
+git branch model
+git checkout model
+
+
+
+
+
+
+
